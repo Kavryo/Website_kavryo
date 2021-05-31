@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/signup.css">
+
+</head>
+<body>
+
+  <nav class="navbar  sticky-top navbar-dark navbar-expand-lg" id="mainNavbar">
+      <div class="container ">
+        <!--for mobile versions hamburger -->
+      <a class="navbar-brand" href="file:///H:/New%20folder/Kavya%20Bhatt/web.html"><img src="images/tt.svg" width="40"
+        height="40"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+     </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="file:///H:/New%20folder/Kavya%20Bhatt/web.html#moc">Teen Titans</a>
+            </li>
+     
+          <li class="nav-item">
+              <a class="nav-link" href="file:///H:/New%20folder/Kavya%20Bhatt/web.html#about">About</a>
+           </li>
+
+           <li class="nav-item">
+              <a class="nav-link" href="file:///H:/New%20folder/Kavya%20Bhatt/web.html#tickets">Contact</a>
+           </li>
+     
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Mini Projects
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="gallery.html">Image Gallery</a>
+                  <a class="dropdown-item" href="lp.html">Landing Page</a>
+                  <a class="dropdown-item" href="pattern.html">Patterns</a>
+                  <a class="dropdown-item" href="moc.html">Museum Of Candy</a>
+                  <a class="dropdown-item" href="todo.html">To-Do List</a>
+                  <a class="dropdown-item" href="circles.html">Pat-a-tap</a>
+                  <a class="dropdown-item" href="color.html">Color Game</a>
+              </div>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav navbar-right">
+            <li class="nav-item ">
+              <a class="nav-link" href="signup.html">Sign Up!  <i class="fas fa-user-plus"></i></a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link active" href="login.html">Login  <i class="fas fa-user"></i></a>
+            </li>
+          </ul>
+
+          
+      </div><!--div of navbar-collapse-->
+    </div><!--div of conatainer-->
+</nav>
+
+<div class="container-fluid w-584px; ">
+	
+  <div class="row justify-content-center ">
+
+	    <form class="border border-primary rounded col-9 col-lg-5 align-items-center">
+        <h1><b>Login</b></h1>
+        <hr>
+ 			  <div class="form-group ">
+    			<label for="exampleInputEmail1"><b>Email address</b></label>
+ 				<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+  			</div>
+  			<div class="form-group">
+    			<label for="exampleInputPassword1"><b>Password</b></label>
+    			<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  			</div>
+ 			
+  			<button type="submit" class="btn btn-primary ">Login</button>
+		</form>			
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+  $(function(){
+             $(document).scroll(function()
+             {
+               var $nav = $("#mainNavbar");
+               $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+</script>
+
+</body>
+</html>

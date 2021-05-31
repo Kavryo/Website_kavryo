@@ -1,0 +1,208 @@
+.container-fluid{
+	padding-top: 10%;
+	padding-right: 10%;
+	padding-left: 10%;
+	height: 100%
+	width:100%;
+}
+
+
+.border-primary {
+    
+    border: solid #ffffff 2px !important;
+}
+
+#caro{
+	background-color: rgba(20,23,25,0.5)!important;
+	border-radius: 8rem!important;
+	border:2.5px solid white;
+	box-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+#picos{
+	box-shadow:  0px 4px 3px rgba(0,0,0,0.5),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+
+.dropdown-menu.show {
+    display: block;
+    background : rgba(0,0,0,0.5);
+}
+.dropdown-item{
+	color:white;
+}
+
+.btn-outline-success {
+    color: white;
+    background-color: transparent;
+    background-image: none;
+    border:2px solid #28a745 ;
+    align-content: center;
+}
+
+
+
+.btn-outline-danger {
+    color: #dc3545;
+    background-color: transparent;
+    background-image: none;
+    border:2px solid #dc3545;
+    align-content: center;
+}
+
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: auto;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    padding-right: auto;
+    padding-left: auto;
+}
+
+#yo{
+	border:2px solid blue;
+}
+
+.rounded{
+	border-radius:25rem!important;
+
+}
+
+#cardimg{
+	border-radius: 2rem!important;
+	border : 2px solid black;
+}
+
+#para{
+	color: white;
+	text-align: center;
+	font-weight: 400;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+
+	font-style: bold;
+}
+
+
+
+#head{
+	color: white;
+	font-family: 'Lalezar', cursive;
+	text-align: center;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+
+.navbar.scrolled{
+	background-color: rgba(20,23,25,0.9);
+	transition: background 500ms;
+}
+
+#card{
+	background-color: rgba(20,23,25,0.6);
+	border-radius: 2rem!important;
+	border: 2px solid white;
+	box-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+
+
+#moc{
+	background: rgba(126, 215, 214, 0.5);
+	margin-top: 0%;
+
+}
+
+#about{
+	background: rgba(242, 165, 49, 0.5);
+}
+
+#tickets{
+	background: rgba(245, 217, 223, 0.5);
+}
+
+#carouselExampleIndicators > div > div > h1{
+	color: white;
+	text-align: center;
+}
+
+#carouselExampleIndicators > div > div > p{
+	color: white;
+	text-align: center;
+}
+
+#navbarSupportedContent{
+	padding: 0.2%;
+	width: 100px;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+a{
+	color: white;
+	padding: 2%;
+}
+
+.sect {
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;	
+}
+
+.subSection {
+	height: 40%;
+	background-color: white;
+}
+
+body{
+	background-image: url(yellow.png);
+	background-position: center margin-top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.btn, .btn-primary{
+	margin-top: 2%;
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-right: 2%;
+    padding-left: 2%;
+ 
+}
+
+
+.navbar{
+	padding: 0;
+	background-color: rgba(20,23,25,0.6);
+}
+
+

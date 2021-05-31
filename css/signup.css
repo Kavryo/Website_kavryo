@@ -1,0 +1,117 @@
+.container-fluid{
+	padding-top: 10%;
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-bottom: 15%;
+	
+}
+
+.dropdown-menu.show {
+    display: block;
+    background : rgba(0,0,0,0.5);
+}
+.dropdown-item{
+	color:white;
+}
+
+body > div{
+	height: 650px;
+}
+
+.rounded {
+    border-radius: .7rem!important;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: auto;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    padding-right: auto;
+    padding-left: auto;
+}
+.border-primary {
+    
+    border: solid #ffffff 2px !important;
+}
+
+#navbarSupportedContent{
+	padding: 0.2%;
+	width: 100px;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin:0;
+}
+
+a{
+	color: white;
+	padding: 2%;
+}
+
+body{
+	background-image: url(bi.jpg);
+	background-position: center margin-top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.btn, .btn-primary{
+	margin-top: 2%;
+}
+
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.navbar.scrolled{
+	background-color: rgba(20,23,25,0.9);
+	transition: background 500ms;
+}
+
+.navbar{
+	padding: 0;
+	background-color: rgba(20,23,25,0.6);
+}
+
+
+div form{
+	background: rgba(0, 0, 0, 0.4);
+	color: white;
+	filter: drop-shadow(0px 4px 3px rgba(0,0,0,0.3));
+	box-shadow: 0px 5px 2px 0px rgba(0, 0, 0, 1);
+	box-sizing: content-box;
+}
+
+div form div label{
+	filter: drop-shadow(0px 4px 3px rgba(0,0,0,0.5));
+
+}
+
+div form div input{
+	filter: drop-shadow(0px 4px 3px rgba(0,0,0,0.5));
+
+}
+
+h1{
+	text-align: center;
+	
+}
+
+hr{
+	color: white;
+	border: 1px solid rgba(255,255,255,0.5);
+}
